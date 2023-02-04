@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Form</title>
+<h1 align="center"><u>Buyer Registration Form</u></h1>
+<h2 style="font-size:1.00em"><b><u>REGISTERED OFFICE & PLANT:-</u> ArcSteel</b>, E/18, Main Market, South Extension, District: Bengaluru Urban, Karnataka, PIN Code - 110049.</h2>
+<b><u>GSTIN:-</b></u> 33AADCB477XXXXX<br>
+
+<style>
+*{
+box-sizing: border-box;
+}
+
+.row {
+margin-left;
+margin-right;
+}
+  
+.column {
+float: left;
+width: 50%;
+padding: 5px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+}
+
+th, td {
+text-align: left;
+padding: 16px;
+}
+h3 {
+text-align: right;
+}
+table, td {
+border:0px solid black;
+}
+p3 {
+text-align: right;
+}
+
+</style>
+</head>
+
+
+<body>
+<form>
+<hr class="dashed-line">
+<h3 style="font-size:0.90em;"><label for="date1">Date:</label>
+<input type="date" id="date1" name="date1"></h3><br><br><br>
+<p2>Please enter all the fields, marked with * are mandatory, without them the form will not be accepted<br><br></p2>
+
+<table style="width:100%"> 
+<tr>
+<td><br>1.&emsp;Status:<br>&emsp;(please "&#x2713")</td>
+<td><input type="radio" name="selection">
+<label for="status1">A. Private Ltd.</label></td>
+<td><input type="radio" name="selection">
+<label for="status2">B. Public Ltd.</label></td>
+</tr>
+
+<tr>
+<td><td><input type="radio" name="selection">
+<label for="status3">C. Govt. Organization</label></td></td>
+<td><input type="radio" name="selection">
+<label for="status4">D. Others</label><br><label for="others">&emsp;Please specify:&emsp;</label>
+<input type="text" id="others" name="others"><br><br></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+<br><br>
+<form>
+<label for="text2"><br>2.&emsp;Commodity:&emsp;</label>
+<input type="text" id="text2" name="text2" style="width: 400px;"><br><br>
+
+
+3.&emsp;General Information About Your Company/Organization (To Be Filled in Block Letters) <br><br>
+
+
+<div class="row">
+<div class="column">
+
+<table>
+<tr>
+<td><label for="option"><br>A.&emsp;Billed to<br>&emsp;(Name of the Company): *</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>B.&emsp;Address: *</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>C.&emsp;Telephone No.: * </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>D.&emsp;Mobile No.: </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>E.&emsp;E-mail address: * </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>F.&emsp;Fax No.: * </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>G.&emsp;Shipped to (Consignee address): * </label></td>
+<td><textarea rows="5" cols="21">
+</textarea></td>
+</tr>
+</table>
+</div>
+
+<div class="column">
+<table>
+<tr>
+<td><label for="option"><br>H.&emsp;PAN:</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>I.&emsp;<b>GSTIN: *</b></label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>J.&emsp;Import/Export Code No.: * </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>K.&emsp;Transporter Details: </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>L.&emsp;Contact Person: </label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<br><br><br>
+
+  
+  
+<div class="row">
+<div class="column">
+<table>
+<tr>
+</tr>
+</table>
+</div>
+
+<div class="column">
+<table>
+<tr>
+<td><label for="option"><br>Full Name:</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label for="option"><br>Designation:</label></td>
+<td><input type="text"></td>
+</tr>
+</table>
+</div>
+</div>
+
+<br>
+<br>
+<p5 style="font-size:0.85em"><b>Note:</b>&nbsp; <b>GSTIN</b> is mandatory in case of Registered Supplier / Buyer. In absence of GSTIN of Buyer / Supplier will be treated as unregistered dealer.</p5><br><br>
+</form>
+</body>
+</html>
